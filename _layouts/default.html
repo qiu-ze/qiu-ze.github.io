@@ -4,6 +4,22 @@
   {% include head.html %}
   <head>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <style>
+      .code-block {
+        position: relative;
+      }
+      .copy-button {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        padding: 5px 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
   </head>
 
   <body>
@@ -35,17 +51,27 @@
 
     <script async src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
 
-    {%- include scroll.html -%}
+    <script>
+      function copyCodeToClipboard(code) {
+        navigator.clipboard.writeText(code).then(function() {
+          alert('Code copied to clipboard!');
+        }, function() {
+          alert('Unable to copy code to clipboard.');
+        });
+      }
+    </script>
 
-    {%- if page.math -%}
-      {% include mathjax.html %}
-    {%- endif -%}
+    <script>
+      function toggleCodeBlock(button) {
+        var codeBlock = button.parentNode.querySelector('.code-block pre');
+        codeBlock.classList.toggle('collapsed');
+        button.textContent = codeBlock.classList.contains('collapsed') ? 'Expand' : 'Collapse';
+      }
+    </script>
 
-    {%- if jekyll.environment == 'production' and site.google_analytics -%}
-      {%- include google-analytics.html -%}
-    {%- endif -%}
     <div class="content">
-    {{ content }}
-  </div>
+      {{ content }}
+    </div>
+
   </body>
 </html>

@@ -11,6 +11,7 @@ toc:  true
 **stonecoin**
 
 <code> 
+<em>
   
     public class ModItems {
         public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registries.ITEM, BarrenWilderness.MODID);
@@ -24,11 +25,10 @@ toc:  true
         }
     }
 
-</code>
-
 后用Properties写了**stonecoin**的一个新方法
 
 <code>
+<em>
 
     public class StoneCoinItem extends Item {
     
@@ -39,4 +39,3 @@ toc:  true
         }
         
     }
-</code>

@@ -12,16 +12,13 @@ toc:  true
 
 <code class="language-javascript"> 
 <em>
+
   
     public class ModItems {
         public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registries.ITEM, BarrenWilderness.MODID);
-        
         public static final Supplier<Item> STONECOIN = ITEMS.register("stonecoin",()-> new StoneCoinItem(new Item.Properties()));
-        
         public static void register(IEventBus eventBus) {
-        
             ITEMS.register(eventBus);
-            
         }
     }
 
@@ -29,13 +26,10 @@ toc:  true
 
 <code class="language-javascript">
 <em>
-
+{% highlight js %}
+  
     public class StoneCoinItem extends Item {
-    
         public StoneCoinItem(Properties pProperties) {
-        
             super(pProperties);
-            
         }
-        
     }

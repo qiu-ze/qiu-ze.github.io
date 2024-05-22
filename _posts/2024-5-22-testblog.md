@@ -6,11 +6,14 @@ last_modified_at: 2024-5-22 16:00:00 +0800
 tags: [Minecraft]
 toc:  true
 ---
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
 使用ITEMs注册表注册一个新物品
 
 **stonecoin**
 
-<code> 
+<code class="Java"> 
 <em>
 
     public class ModItems {
@@ -23,7 +26,7 @@ toc:  true
 
 后用Properties写了**stonecoin**的一个新方法
 
-<code>
+<code class="Java">
 <em>
   
     public class StoneCoinItem extends Item {

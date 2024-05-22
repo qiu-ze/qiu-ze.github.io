@@ -15,6 +15,9 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - not-pure-poole
+  - jekyll-remote-theme
+
+remote_theme: vszhub/not-pure-poole
 # Optimize Jekyll
 exclude:
   - .editorconfig

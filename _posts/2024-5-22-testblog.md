@@ -12,7 +12,7 @@ toc:  true
 
 <code>
   
-    \linenumberdisplaymath
+\linenumberdisplaymath
 
     public class ModItems {
         public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registries.ITEM, BarrenWilderness.MODID);
@@ -28,7 +28,7 @@ toc:  true
 
 <code>
   
-    \linenumberdisplaymath
+\linenumberdisplaymath
 
     public class StoneCoinItem extends Item {
         public StoneCoinItem(Properties pProperties) {

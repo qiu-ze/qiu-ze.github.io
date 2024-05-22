@@ -11,11 +11,6 @@ toc:  true
 **stonecoin**
 
 **文件名: ModItems.java**
-<div class="code-block">
-  <button class="copy-button" onclick="copyCodeToClipboard(```java\npublic class MyClass {}\n```">Copy</button>
-  <button class="expand-button" onclick="toggleCodeBlock(this)">Expand</button>
-  <pre><code class="language-java">
-    
 ```java
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registries.ITEM, BarrenWilderness.MODID);
@@ -25,15 +20,7 @@ public class ModItems {
     }
 }
 ```
-  </code></pre>
-</div>
-
-后用Properties写了stonecoin的一个新方法
-<div class="code-block">
-  <button class="copy-button" onclick="copyCodeToClipboard(```java\npublic class MyClass {}\n```">Copy</button>
-  <button class="expand-button" onclick="toggleCodeBlock(this)">Expand</button>
-  <pre><code class="language-java">
-    
+后用Properties写了stonecoin的一个新方法  
 ```java
 public class StoneCoinItem extends Item {
     public StoneCoinItem(Properties pProperties) {
@@ -41,5 +28,3 @@ public class StoneCoinItem extends Item {
     }
 }
 ```
-  </code></pre>
-</div>

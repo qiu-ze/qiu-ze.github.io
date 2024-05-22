@@ -52,3 +52,19 @@
     margin-left: var(--spacer);
   }
 }
+```scss
+.highlight {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  padding: 10px;
+  overflow: auto;
+}
+
+.highlight .lineno {
+  color: #999;
+  display: inline-block;
+  width: 2em;
+  user-select: none;
+  text-align: right;
+  margin-right: 10px;
+}

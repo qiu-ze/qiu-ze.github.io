@@ -9,9 +9,9 @@ toc:  true
 使用ITEMS注册表注册一个新物品
 
 **stonecoin**
-    <em>
-<div class="code-lang">java</div>
-
+<div class="code-lang">JAVA</div>
+<em>
+  
     public class ModItems {
         public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registries.ITEM, BarrenWilderness.MODID);
         public static final Supplier<Item> STONECOIN = ITEMS.register("stonecoin",()-> new StoneCoinItem(new Item.Properties()));
@@ -19,11 +19,15 @@ toc:  true
             ITEMS.register(eventBus);
         }
     }
-
+</em>
 后用Properties写了**stonecoin**的一个新方法
 
+<div class="code-lang">JAVA</div>
+<em>
+  
     public class StoneCoinItem extends Item {
         public StoneCoinItem(Properties pProperties) {
             super(pProperties);
         }
     }
+</em>

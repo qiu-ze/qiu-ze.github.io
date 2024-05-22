@@ -9,11 +9,7 @@ toc:  true
 使用ITEMS注册表注册一个新物品
 
 **stonecoin**
-<div class="highlight-tools">
-  <i class="fas fa-angle-down expand">
-  </i><div class="code-lang">JAVA</div>
-  <div class="copy-notice"></div><i class="fas fa-paste copy-button">
-  </i>
+
 <em>
   
     public class ModItems {
@@ -24,14 +20,8 @@ toc:  true
         }
     }
 </em>
-</div>
 后用Properties写了**stonecoin**的一个新方法
 
-<div class="highlight-tools">
-  <i class="fas fa-angle-down expand">
-  </i><div class="code-lang">JAVA</div>
-  <div class="copy-notice"></div><i class="fas fa-paste copy-button">
-  </i>
 <em>
   
     public class StoneCoinItem extends Item {
@@ -40,4 +30,3 @@ toc:  true
         }
     }
 </em>
-</div>

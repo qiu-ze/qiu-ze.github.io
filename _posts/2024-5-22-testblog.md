@@ -10,7 +10,7 @@ toc:  true
 
 **stonecoin**
 
-<code> 
+<code class="language-javascript"> 
 <em>
   
     public class ModItems {
@@ -27,7 +27,7 @@ toc:  true
 
 后用Properties写了**stonecoin**的一个新方法
 
-<code>
+<code class="language-javascript">
 <em>
 
     public class StoneCoinItem extends Item {

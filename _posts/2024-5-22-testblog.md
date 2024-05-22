@@ -10,10 +10,9 @@ toc:  true
 
 **stonecoin**
 
-<code class="language-javascript"> 
+<code> 
 <em>
 
-  
     public class ModItems {
         public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registries.ITEM, BarrenWilderness.MODID);
         public static final Supplier<Item> STONECOIN = ITEMS.register("stonecoin",()-> new StoneCoinItem(new Item.Properties()));
@@ -24,9 +23,8 @@ toc:  true
 
 后用Properties写了**stonecoin**的一个新方法
 
-<code class="language-javascript">
+<code>
 <em>
-{% highlight js %}
   
     public class StoneCoinItem extends Item {
         public StoneCoinItem(Properties pProperties) {

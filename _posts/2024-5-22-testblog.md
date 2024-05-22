@@ -6,11 +6,12 @@ last_modified_at: 2024-5-22 16:00:00 +0800
 tags: [Minecraft]
 toc:  true
 ---
-使用ITEMs注册表注册一个新物品
+使用ITEMS注册表注册一个新物品
 
 **stonecoin**
     <em>
-    
+<div class="code-lang">java</div>
+
     public class ModItems {
         public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registries.ITEM, BarrenWilderness.MODID);
         public static final Supplier<Item> STONECOIN = ITEMS.register("stonecoin",()-> new StoneCoinItem(new Item.Properties()));

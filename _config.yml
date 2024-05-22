@@ -57,9 +57,9 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  name: qiu-ze
+  url: https://github.com/qiu-ze/
+  email: kenwayzed@gmail.com
 markdown: kramdown
 kramdown:
   input: GFM

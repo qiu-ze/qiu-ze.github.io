@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blockblog
+title: BloodBlock
 date: 2024-5-27 16:00:00 +0800
 last_modified_at: 2024-5-27 19:00:00 +0800
 tags: [Minecraft]
